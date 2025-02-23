@@ -164,7 +164,7 @@ const FilterModal = ({ isOpen, onClose, onFilter }: FilterModalProps) => {
                   </div>
                 </div>
                 <div className="mb-6">
-                  <h3 className="text-gray-600 mb-2">Activity <span className="text-xs text-gray-400">Select list</span></h3>
+                  <h3 className="text-gray-600 mb-2">Activity <span className="text-xs text-gray-400"></span></h3>
                   <div className="flex flex-wrap gap-2">
                     {filterOptionsByCategory.tours.activity.map((activity) => (
                       <button
