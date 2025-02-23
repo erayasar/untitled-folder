@@ -44,9 +44,7 @@ const TourCard = ({
         <button className="absolute top-2 right-2 bg-white p-2 rounded-full z-10">
           <FiHeart className="h-5 w-5" />
         </button>
-        <div className="absolute bottom-2 left-2 bg-primary-500 text-white px-3 py-1 rounded-full text-sm z-10">
-          Tour
-        </div>
+        
       </div>
       
       <div className="p-4">
